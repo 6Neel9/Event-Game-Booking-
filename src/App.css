@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-image: linear-gradient(to right, white, blue);
+  background-image: linear-gradient(to right, white, yellow);
 }
 .homeImg {
   width: 400px;
