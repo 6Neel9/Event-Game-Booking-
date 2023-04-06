@@ -6,7 +6,7 @@
   "scripts": {
     "start": "json-server --watch db.json",
     "dev": "concurrently --kill-others \"vite\" \"npm run start\"",
-    "build": "vite build --watch",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
