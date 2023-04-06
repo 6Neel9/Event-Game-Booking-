@@ -195,9 +195,7 @@ const Checkout = () => {
             <span>
               <h3>Venue:</h3> {details[locate].name}
             </span>
-            <span>
-              <h3>Venue:</h3> {details[locate].name}
-            </span>
+
             <span>
               <h3>Transport Charge:</h3>{" "}
               {Number(details[locate].Distance.split("k")[0]) * 2 * 50}
