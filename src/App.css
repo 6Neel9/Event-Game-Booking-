@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to right, white, rgb(218, 213, 213));
+}
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, white, blue);
+}
+.homeImg {
+  width: 400px;
+  height: 200px;
+}
+.grid {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1300px) {
+  .grid {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    margin-top: 10px;
+    height: 230px;
+    width: 200px;
+    margin-left: 40%;
+  }
+  .homeImg {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 20%;
+  }
+  .cartButt{
+    padding: 0;
+  }
+}
+.grids {
+  margin-left: 20%;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+button {
+  background-color: rgb(68, 68, 189);
+  color: white;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(63, 110, 180);
+}
+.carts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 1%;
+  width: 80%;
+}
+input {
+  height: 35px;
+  border-radius: "10px";
+  margin-top: 2%;
+}
+.outerLog {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10%;
+  background-color: white;
+}
+button {
+  text-align: center;
+  margin-top: 10%;
+  height: 40px;
+}
+.show{
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 2px;
+  background-color: rgb(189, 180, 180);
+  cursor: pointer;
+}
+.show:active{
+  background-color: green;
+}
+.show:hover{
+  border: 2px solid black;
+}
+.submita{
+  margin-top: 2%;
+}

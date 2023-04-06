@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "Neel",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Lal",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "Sobuj",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "user",
+      "password": "user",
+      "id": 4
+    },
+    {
+      "name": "this",
+      "password": "this",
+      "id": 5
+    },
+    {
+      "name": "neels",
+      "password": "neels",
+      "id": 6
+    }
+  ]
+}
